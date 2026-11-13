@@ -1,0 +1,14 @@
+{
+  "name": "hr-slackbot",
+  "version": "1.0.0",
+  "description": "People Ops Assistant — answers the 10 most common HR questions in Slack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.1.0",
+    "dotenv": "^16.4.7"
+  }
+}
